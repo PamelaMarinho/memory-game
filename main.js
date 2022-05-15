@@ -23,7 +23,7 @@ function timer(){
     const MY_INTERVAL = setInterval( ()=>{
         count += 1
         document.getElementsByClassName("timer")[0].innerHTML =  10 - count
-        if (count == '2'){
+        if (count == '10'){
             clearInterval(MY_INTERVAL)
             const CARD = document.getElementsByClassName("card")
             for ( i in CARD){
