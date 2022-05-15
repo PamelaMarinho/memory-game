@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    margin: unset;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('./image/bg.gif');
+    background-color: rgb(8, 7, 8);
+    background-size: fill;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.main-container {
+    background-color: transparent;
+    max-width: 65%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;                                                                 
+}
+
+.card{
+    transform-style: preserve-3d;
+    transform: rotateY(0deg);
+    transition: all ease 1s;
+    flex: 1 1 130px;
+    margin: 5px;
+    max-width: 120px;
+    cursor: pointer; 
+}
+
+.back, .front{
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+    object-fit: contain;
+
+}
+
+.front{
+    transform: rotateY(180deg);
+}
+
+.back{
+    position: absolute;
+    backface-visibility: hidden;
+    left: 0;
+}
+
+.button, .timer{
+    font-family: 'Press Start 2P', cursive;
+    position: absolute;
+    font-size: 2.5vh;
+    margin: 25px;
+    color: #888208;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.button{
+    left: 0;
+}
+
+.timer{
+    right: 0;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 800px) {
+
+    .main-container{
+        max-width: 80vw;
+    }
+    
+    .card{
+        max-width: 70px;
+    }
+
+    .button, .time{
+        margin: 5px;
+    }
+}
