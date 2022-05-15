@@ -4,7 +4,7 @@ Desenvolvido com HTML/CSS e Javascript.
 
 <hr>
 
-O jogo da memória é formado por 12 cartas que devem ser memorizadas no tempo de 10 segundos
+O jogo da memória é formado por 12 cartas que devem ser memorizadas no tempo de 10 segundos <br>
 Apos esse tempo elas irão virar e você deve descobrir os pares das cartas.
 
 
