@@ -9,7 +9,7 @@ Apos esse tempo elas irão virar e você deve descobrir os pares das cartas.
 
 
 
-Para jogar click <a href="https://pamelamarinho.github.io/memory-game/" target="_blank">aqui</a>
+<a href="https://pamelamarinho.github.io/memory-game/" target="_blank">Jogue Aqui</a>
 
 
 
