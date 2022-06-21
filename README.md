@@ -4,7 +4,7 @@ Desenvolvido com   <img align="center" alt="Pamela-Js" height="30" width="40" sr
 <hr>
 
 O jogo da memória é formado por 12 cartas que devem ser memorizadas no tempo de 10 segundos <br>
-Apos esse tempo elas irão virar e você deve descobrir os pares das cartas. 
+Após esse tempo elas irão virar e você deve descobrir os pares das cartas. 
 
 <br>Você pode saber se a idade começou fazer efeito clicando <a href="https://pamelamarinho.github.io/memory-game/" target="_blank"> Aqui</a><br> 😅
 
