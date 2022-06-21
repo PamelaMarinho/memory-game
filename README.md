@@ -12,4 +12,4 @@ Após esse tempo elas irão virar e você deve descobrir os pares das cartas.
 ![New-Recording-15_05_2022-11_24_37](https://user-images.githubusercontent.com/40448360/168478056-2e1f37b6-3fc5-488e-b87b-8e5e1b0de3dc.gif)
 
 <br><br>
-🐞 Encontrar e relatar issues
+🐛 Relate se encontrar issues
